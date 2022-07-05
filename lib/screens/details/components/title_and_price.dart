@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:plant_app/constants.dart';
+import '../../../constants.dart';
 
 class TitleAndPrice extends StatelessWidget {
   const TitleAndPrice({

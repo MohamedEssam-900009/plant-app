@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:plant_app/constants.dart';
-import 'package:plant_app/screens/details/components/image_and_icons.dart';
-import 'package:plant_app/screens/details/components/title_and_price.dart';
+import '../../../constants.dart';
+import 'image_and_icons.dart';
+import 'title_and_price.dart';
 
 class DetailsBody extends StatelessWidget {
   const DetailsBody({Key? key}) : super(key: key);
@@ -28,7 +28,7 @@ class DetailsBody extends StatelessWidget {
                 height: 84.0,
                 child: ElevatedButton(
                   onPressed: () {},
-                  child: Text(
+                  child: const Text(
                     'Buy Now',
                     style: TextStyle(
                       color: Colors.white,
@@ -37,7 +37,7 @@ class DetailsBody extends StatelessWidget {
                   ),
                   style: ElevatedButton.styleFrom(
                     primary: kPrimaryColor,
-                    shape: RoundedRectangleBorder(
+                    shape: const RoundedRectangleBorder(
                       borderRadius: BorderRadius.only(
                         topRight: Radius.circular(20),
                       ),

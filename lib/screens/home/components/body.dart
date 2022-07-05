@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:plant_app/constants.dart';
-import 'package:plant_app/screens/home/components/feautured_plants.dart';
-import 'package:plant_app/screens/home/components/recomend_plants.dart';
-import 'package:plant_app/screens/home/components/title_with_more_btn.dart';
+import '../../../constants.dart';
+import 'feautured_plants.dart';
+import 'recomend_plants.dart';
+import 'title_with_more_btn.dart';
 
 import 'header_with_searchbox.dart';
 
