@@ -1,4 +1,4 @@
-# Plant App - Flutter UI
+# Plant App
 
 **Packages we are using:**
 
